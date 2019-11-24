@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>登录界面2222</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<pre>
+			method: 请求方式 get/post
+				get: 数据量小, 安全性不高 默认方式
+				post: 量大, 安全性相对高.
+			action: 请求的服务器路径.
+			
+			id: 编号, 前端区分唯一性, js中使用频繁
+			name: 名称, 后端(服务器)区分唯一性, 获取值, 只要提交数据给后台, 必须存在name
+		</pre>
+		<form method="get" action="http://localhost:8888/log">
+			用户名:<input type="text" name="uname" id="name"/>
+			密码:<input type="text" name="pwd" id="pass"/>
+			<input type="submit" value="登录"/>
+			
+		</form>
+	</body>
+</html>
